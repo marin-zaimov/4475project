@@ -10,7 +10,7 @@
  * The followings are the available model relations:
  * @property Projects[] $projects
  */
-class Algorithm extends CActiveRecord
+class Algorithm extends BaseActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
@@ -38,8 +38,7 @@ class Algorithm extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, name', 'required'),
-			array('id', 'numerical', 'integerOnly'=>true),
+			array('name', 'required'),
 			array('name', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

@@ -9,7 +9,7 @@
  * @property string $date
  * @property string $output
  */
-class Algorithm2project extends CActiveRecord
+class Algorithm2project extends BaseActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.

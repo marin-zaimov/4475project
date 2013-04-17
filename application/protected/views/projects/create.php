@@ -29,9 +29,11 @@
       <div id="uploadLinkField" >
         <a href="#" class="btn" id="uploadNewFile">Upload File</a>
         <label id="uploadedFileLabel" rel=""></label>
+        <input type="hidden" value="" name="images" id="imageInput" />
         <div class="for-upload-spinner"></div>
         <i id="removeUploadedFile" class="icon-remove" style="cursor:pointer; display:none;"></i>
       </div>
     </div>
   </div>
+  <button class="btn btn-primary" id="saveProject">Save</button>
 </form>

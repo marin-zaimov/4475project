@@ -1,9 +1,12 @@
 <style>
-
+  .section_headers {
+    font-weight:bold;
+  }
 </style>
 
 <button class="btn btn-primary" id="newProject">New Project</button>
-<div class="row-fluid">
+<br/>
+<div class="row-fluid section_headers">
   <div class="span3">
     Name
   </div>
@@ -20,7 +23,7 @@
 
 
 <? foreach ($projects as $p): ?>
-  <div class="row-fluid">
+  <div class="row-fluid project_row" id="<? echo $p->id; ?>">
     <div class="span3">
       <? echo $p->name; ?>
     </div>

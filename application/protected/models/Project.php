@@ -14,7 +14,7 @@
  * @property Algorithms[] $algorithms
  * @property Images[] $images
  */
-class Project extends CActiveRecord
+class Project extends BaseActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
@@ -42,8 +42,7 @@ class Project extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, date', 'required'),
-			array('id', 'numerical', 'integerOnly'=>true),
+			array('date', 'required'),
 			array('name, uploadedBy', 'length', 'max'=>255),
 			array('description', 'safe'),
 			// The following rule is used by search().

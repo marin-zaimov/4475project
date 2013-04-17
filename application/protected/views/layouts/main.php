@@ -96,5 +96,6 @@
 
 </div><!-- page -->
 <div id="popupModal"></div>
+<input type="hidden" id="baseUrl" value="<? echo Yii::app()->request->baseUrl; ?>"
 </body>
 </html>

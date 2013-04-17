@@ -13,7 +13,7 @@
  * The followings are the available model relations:
  * @property Projects $project
  */
-class Image extends CActiveRecord
+class Image extends BaseActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
@@ -41,8 +41,8 @@ class Image extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, projectId, filename', 'required'),
-			array('id, projectId, order', 'numerical', 'integerOnly'=>true),
+			array('projectId, filename', 'required'),
+			array('projectId, order', 'numerical', 'integerOnly'=>true),
 			array('cover', 'length', 'max'=>1),
 			array('filename', 'length', 'max'=>255),
 			// The following rule is used by search().
