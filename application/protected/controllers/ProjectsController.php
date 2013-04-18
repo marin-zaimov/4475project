@@ -51,15 +51,14 @@ class ProjectsController extends Controller
     $projectsDir = Yii::app()->params['projectsRoot'];
     $tempPath = $tempDir.$tempFilename;
     $destinationDir = $projectsDir .'/'.$projectId. '/';
-    $destinationPath = $destinationDir.$media->fileName;
-    
+
     if (!is_dir($destinationDir)) {
       $this->createAllDirsInPath($destinationDir);
     }
 
     $zip = new ZipArchive;
     if ($zip->open($tempPath) === true) {
-      $zip->extractTo($destinationPath);
+      $zip->extractTo($destinationDir);
       $zip->close();
 
       $allFiles = scandir($destinationDir);

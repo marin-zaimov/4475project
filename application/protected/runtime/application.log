@@ -7896,3 +7896,1382 @@ in /home/marin/4475project/application/protected/controllers/ProjectsController.
 2013/04/17 17:34:08 [trace] [system.CModule] Loading "clientScript" application component
 in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
 in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:06:50 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:06:50 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:06:50 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:00 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:00 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:00 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/SiteController.php (32)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:00 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/SiteController.php (32)
+2013/04/18 00:15:00 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/SiteController.php (32)
+2013/04/18 00:15:01 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/SiteController.php (32)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:02 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:15:02 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:15:02 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:03 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:03 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:03 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:09 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:09 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:09 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.db.CDbConnection] Starting transaction
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [application] Creating Project from array
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (178)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.db.ar.CActiveRecord] Project.insert()
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `projects` (`name`, `description`, `uploadedBy`, `date`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:10 [trace] [application] Project saved successfully
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (151)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:15:11 [trace] [application] Creating Image from array
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (178)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (77)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:15:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (77)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:15:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (77)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:15:11 [trace] [system.db.ar.CActiveRecord] Image.insert()
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (78)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:15:11 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `images` (`cover`, `projectId`, `order`, `filename`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (78)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:15:11 [trace] [application] Image saved successfully
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (151)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (78)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:15:11 [trace] [system.db.CDbTransaction] Committing transaction
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (33)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:24 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:24 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:24 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:29 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:29 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:29 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.db.CDbConnection] Starting transaction
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [application] Creating Project from array
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (178)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.db.ar.CActiveRecord] Project.insert()
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:30 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `projects` (`name`, `description`, `uploadedBy`, `date`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:31 [trace] [application] Project saved successfully
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (151)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:31 [trace] [system.db.CDbTransaction] Committing transaction
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (33)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:33 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:16:33 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:16:33 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t` WHERE `t`.`id`=15 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `algorithms`
+in /home/marin/4475project/application/protected/models/Algorithm.php (22)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `algorithms`
+in /home/marin/4475project/application/protected/models/Algorithm.php (22)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.ar.CActiveRecord] Algorithm.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `algorithms` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:35 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+2013/04/18 00:16:35 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+2013/04/18 00:16:35 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:40 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:16:40 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:16:40 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t` WHERE `t`.`id`=12 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `algorithms`
+in /home/marin/4475project/application/protected/models/Algorithm.php (22)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `algorithms`
+in /home/marin/4475project/application/protected/models/Algorithm.php (22)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.ar.CActiveRecord] Algorithm.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `algorithms` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:41 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+2013/04/18 00:16:41 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.ar.CActiveRecord] Image.findByPk()
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `images` `t` WHERE `t`.`id`=13 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.ar.CActiveRecord] Image.findByPk()
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `images` `t` WHERE `t`.`id`=13 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:44 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:16:44 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:16:44 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t` WHERE `t`.`id`=14 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (153)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `algorithms`
+in /home/marin/4475project/application/protected/models/Algorithm.php (22)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `algorithms`
+in /home/marin/4475project/application/protected/models/Algorithm.php (22)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.ar.CActiveRecord] Algorithm.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `algorithms` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (155)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:45 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+2013/04/18 00:16:45 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+2013/04/18 00:16:45 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.ar.CActiveRecord] Image.findByPk()
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `images` `t` WHERE `t`.`id`=15 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.ar.CActiveRecord] Image.findByPk()
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `images` `t` WHERE `t`.`id`=15 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:16:47 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:16:47 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:16:47 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:13 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:13 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:13 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:18 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:18 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:18 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.db.CDbConnection] Starting transaction
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (25)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [application] Creating Project from array
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (178)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (28)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.db.ar.CActiveRecord] Project.insert()
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `projects` (`name`, `description`, `uploadedBy`, `date`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [application] Project saved successfully
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (151)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (29)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:20 [trace] [application] Creating Image from array
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (178)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (78)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:18:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (78)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:18:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (180)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (78)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:18:20 [trace] [system.db.ar.CActiveRecord] Image.insert()
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (79)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:18:20 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `images` (`cover`, `projectId`, `order`, `filename`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (141)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (79)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:18:20 [trace] [application] Image saved successfully
+in /home/marin/4475project/application/protected/extensions/BaseActiveRecord.php (151)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (79)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (31)
+2013/04/18 00:18:20 [trace] [system.db.CDbTransaction] Committing transaction
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (33)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (7)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/list.php (37)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:22 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:18:22 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+2013/04/18 00:18:22 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (9)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (154)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (154)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (154)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `projects`
+in /home/marin/4475project/application/protected/models/Project.php (26)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (154)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (154)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `projects` `t` WHERE `t`.`id`=16 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (154)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `algorithms`
+in /home/marin/4475project/application/protected/models/Algorithm.php (22)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `algorithms`
+in /home/marin/4475project/application/protected/models/Algorithm.php (22)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.ar.CActiveRecord] Algorithm.findAll()
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `algorithms` `t`
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (156)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.ar.CActiveRecord] lazy loading Project.images
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (157)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (157)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (157)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `images`.`id` AS `t1_c0`, `images`.`projectId` AS `t1_c1`, `images`.`order` AS `t1_c2`, `images`.`cover` AS `t1_c3`, `images`.`filename` AS `t1_c4` FROM `images` `images`  WHERE (`images`.`projectId`=:ypl0)
+in /home/marin/4475project/application/protected/views/projects/view.php (41)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (157)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in /home/marin/4475project/application/protected/views/layouts/column1.php (2)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (157)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "user" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (157)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "session" application component
+in /home/marin/4475project/application/protected/views/layouts/main.php (82)
+in /home/marin/4475project/application/protected/views/layouts/column1.php (6)
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (157)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "clientScript" application component
+in /home/marin/4475project/application/protected/controllers/ProjectsController.php (157)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.ar.CActiveRecord] Image.findByPk()
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `images` `t` WHERE `t`.`id`=16 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "log" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "request" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "urlManager" application component
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.CModule] Loading "db" application component
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbConnection] Opening DB connection
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `images`
+in /home/marin/4475project/application/protected/models/Image.php (25)
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.ar.CActiveRecord] Image.findByPk()
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
+2013/04/18 00:18:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `images` `t` WHERE `t`.`id`=16 LIMIT 1
+in /home/marin/4475project/application/protected/controllers/ImagesController.php (8)
+in /home/marin/4475project/application/index.php (13)
