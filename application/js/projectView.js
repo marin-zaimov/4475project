@@ -5,8 +5,9 @@ $(function() {
 
 function runAlgorithms(e) {
    e.preventDefault();
+   var projectId = $('#projectId').val();
 
-  $.post('runAlgorithms', {}, function(result) {
+  $.post('runAlgorithms', {projectId: projectId}, function(result) {
       result = $.parseJSON(result);
     
       if (result.status == true) {

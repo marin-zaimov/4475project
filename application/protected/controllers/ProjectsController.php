@@ -75,6 +75,7 @@ class ProjectsController extends Controller
             );
             $image = Image::createFromArray($imageData);
             Image::store($image);
+            $order++;
           }
         }
       }
@@ -159,7 +160,7 @@ class ProjectsController extends Controller
   public function actionRunAlgorithms()
   {
     $response = new AjaxResponse();
-    $projectId = $_GET['projectId'];
+    $projectId = $_POST['projectId'];
     $project = Project::model()->findByPk($projectId);
 
     //$algorithms = Algorthim::mode()->findAll();

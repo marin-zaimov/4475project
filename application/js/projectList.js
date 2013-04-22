@@ -62,7 +62,7 @@ function addUploadedFileReference(data) {
   newUploadedLabel.attr('rel', data.tmpName);
   removeNewUploaded.show();
   $('#imageInput').val(data.tmpName);
-  $('#audioForm').on('click', '#removeUploadedFile', onRemoveUploadedFileClick);
+  $('#projectForm').on('click', '#removeUploadedFile', onRemoveUploadedFileClick);
 
 }
 

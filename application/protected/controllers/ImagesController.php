@@ -28,16 +28,17 @@ class ImagesController extends Controller
   {
     $projectId = $_GET['projectId'];
     $algorithmId = $_GET['algorithmId'];
-    $output = Image2Algorithm::model()->findByAttributes(array(
+    $output = Algorithm2project::model()->findByAttributes(array(
       'projectId'=>$projectId, 'algorithmId'=> $algorithmId
     ));
 
     //get filename for output
-   /* $projectsDir = Yii::app()->params['projectsRoot'];
-    $tempPath = $tempDir.$tempFilename;
-    $destinationDir = $projectsDir .'/'.$projectId. '/';
-    */
-    $file_extension = strtolower(substr(strrchr($image->filename,"."),1));
+    $projectsDir = Yii::app()->params['projectsRoot'];
+    $projectOutputDir = $projectsDir .$projectId. '/outputs/';
+
+    $location = $projectOutputDir . $output->output;
+
+    $file_extension = strtolower(substr(strrchr($output->output,"."),1));
 
     switch( $file_extension ) {
       case "gif": $ctype = "image/gif"; break;
@@ -48,9 +49,8 @@ class ImagesController extends Controller
     }
 
     header('Content-Type: image/'.$ctype);
-    $url = Yii::app()->params['projectsRoot'] . $image->projectId .'/'. $image->filename;
 
-    echo readfile($url);
+    echo readfile($location);
     return;
   }
 

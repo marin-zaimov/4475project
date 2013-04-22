@@ -6,7 +6,18 @@
   .image_info img{
     border: 1px solid #EEE;
   }
-  .algorithm_info img {
+
+
+  .output_info img {
+    height: 300px;
+    border: 1px solid #EEE;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .algorithms_info .algorithm_info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #EEE;
 
   }
 </style>
@@ -15,7 +26,7 @@
   <h3 class="form-header">Project Info</h3>
 
   <form class="project_info form-horizontal">
-    <input type="hidden" id="projectId" name="Project[id]">
+    <input type="hidden" id="projectId" name="Project[id]" value="<? echo $project->id; ?>">
     <div class="row-fluid">
       <div class="span6">
         <div class="control-group">
@@ -38,33 +49,21 @@
   </form>
 
   <hr/>
+  <button id="runAlgorithms" class="btn btn-primary pull-right">Run Algorithms</button>
   <h3 class="form-header">Algorithms</h3>
-  <button id="runAlgorithms">Run Algorithms</button>
   <div class="algorithms_info">
     <? if (!empty($project->algorithmOutput)) {
       foreach ($project->algorithmOutput as $a): ?>
       
       <div class="algorithm_info row-fluid">
-        <div class="span4">
-          <img src="<? echo Yii::app()->request->baseUrl; ?>/index.php/images/downloadOutput?projectId=<? echo $project->id; ?>&algorithmId=<? echo $a->algorithmId; ?>" alt="<? echo $images[$i]->filename; ?>">        
+        <div class="span4 output_info">
+          <img src="<? echo Yii::app()->request->baseUrl; ?>/index.php/images/downloadOutput?projectId=<? echo $project->id; ?>&algorithmId=<? echo $a->algorithmId; ?>" alt="<? echo $a->output; ?>">        
         </div>
         <div class="span8">
-          <div class="row-fluid">
-            <div class="span4">
-              Algorithm:
-            </div>
-            <div class="span8">
-              <? echo $a->algorithm->name; ?>
-            </div>
-          </div>
-          <div class="row-fluid">
-            <div class="span4">
-              Date:
-            </div>
-            <div class="span8">
-              <? echo date('m-d-y H:i', $a->date); ?>
-            </div>
-          </div>
+          <b>Algorithm: </b>&nbsp<? echo $a->algorithm->name; ?>
+          <br/>
+          <br/>
+          <b>Date: </b>&nbsp<? echo date('m-d-Y', strtotime($a->date)); ?>
         </div>
       </div>
 
@@ -117,6 +116,7 @@
     </div>
     
   </div>
+
 </div>
 
 

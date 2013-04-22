@@ -1,5 +1,8 @@
 <style>
-
+  .for-upload-spinner {
+    float: right;
+    margin-top: -20px;  
+  }
 </style>
 
 <h3 class="page-header">Add a new Project</h3>
