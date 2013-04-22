@@ -94,6 +94,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'projectsRoot'=>'/data/4475/projects/',
+		'algorithmsRoot'=>'/data/4475/algorithms/',
 		'projectsTempRoot'=>'/data/4475/projects/temp/',
 	),
 );

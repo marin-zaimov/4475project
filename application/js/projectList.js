@@ -85,6 +85,9 @@ function onSaveProjectClick(e) {
       if (result.status == true) {
         Message.flash('Project saved successfully.', true);
         Message.popupClose();
+        setTimeout(function() {
+          window.location.href = window.location.href;
+        },1000);
       }
       else {
         Message.flash('There was an error saving the project.', result.status, result.messages);

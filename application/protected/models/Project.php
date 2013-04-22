@@ -61,6 +61,7 @@ class Project extends BaseActiveRecord
 		return array(
 			'algorithms' => array(self::MANY_MANY, 'Algorithm', 'algorithm2project(projectId, algorithmId)'),
 			'images' => array(self::HAS_MANY, 'Image', 'projectId'),
+			'algorithmOutput' => array(self::HAS_MANY, 'Algorithm2project', 'projectId'),
 		);
 	}
 

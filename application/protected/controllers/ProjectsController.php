@@ -156,4 +156,55 @@ class ProjectsController extends Controller
 
   }
 
+  public function actionRunAlgorithms()
+  {
+    $response = new AjaxResponse();
+    $projectId = $_GET['projectId'];
+    $project = Project::model()->findByPk($projectId);
+
+    //$algorithms = Algorthim::mode()->findAll();
+
+    $projectDir = Yii::app()->params['projectsRoot'].'/'.$projectId .'/';
+    $algorithmDir = $projectDir . 'algorithms/';
+    $algorithmHere = Yii::app()->params['algorithmsRoot'].'MainClass.class';
+
+    // $allImages = scandir($projectDir);
+    // $commands = array();
+    // for ($i=0; $i<=5; $i++) {
+    //   $c = 'java '.$algorithmHere .' nocam 0 '.$allImages[0].
+    // }*/
+
+
+    $command = 'java /data/4475/algorithms/MainClass.class nocam 0 /data/4475/algorithms/test/000.jpg';
+    $command .= ' /data/4475/algorithms/test/000.jpg';
+    $command .= ' /data/4475/algorithms/test/001.jpg';
+    $command .= ' /data/4475/algorithms/test/002.jpg';
+    $command .= ' /data/4475/algorithms/test/003.jpg';
+    $command .= ' /data/4475/algorithms/test/004.jpg';
+    $command .= ' /data/4475/algorithms/test/005.jpg';
+    $command .= ' /data/4475/algorithms/test/006.jpg';
+    $command .= ' /data/4475/algorithms/test/007.jpg';
+    $command .= ' /data/4475/algorithms/test/008.jpg';
+    $command .= ' /data/4475/algorithms/test/009.jpg';
+    $command .= ' /data/4475/algorithms/test/010.jpg';
+    $command .= ' /data/4475/algorithms/test/011.jpg';
+    $command .= ' /data/4475/algorithms/test/012.jpg';
+    $command .= ' /data/4475/algorithms/test/013.jpg';
+    $command .= ' /data/4475/algorithms/test/014.jpg';
+
+    //run algorthims here:
+    //$output = shell_exec('ssh-add /home/marin/.ssh/marin.pem');
+    $output = shell_exec($command);
+    var_dump($command);
+    die;
+
+    if (true) {
+      $response->setStatus(true, 'Algorithms run successfully');
+    }
+    else { 
+      $response->setStatus(false, 'Moving uploaded file failed.');
+    }
+    echo $response->asJson();
+  }
+
 }
